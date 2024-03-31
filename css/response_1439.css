@@ -1,0 +1,555 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 300px;
+        --font_size: 15px;
+        --font_size_title: 30px;
+    }
+
+
+
+    .bg_block
+    {
+        padding-bottom: 40px;
+    }
+
+    .bg_block.pad
+    {
+        padding: 40px 0;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 39px;
+    }
+
+
+
+    .cont
+    {
+        max-width: 1160px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .data
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    header .consult
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .columns
+    {
+        column-gap: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        padding: 204px 0 186px;
+
+        border-radius: 30px;
+    }
+
+
+
+    /*------------
+        steps
+    ------------*/
+    .steps
+    {
+        padding-top: 40px;
+    }
+
+
+    .steps .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+    .steps .row > *
+    {
+        width: 290px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .steps .row > *.big
+    {
+        width: calc(100% - 640px);
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ
+    {
+        padding-top: 40px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 20px 30px;
+    }
+
+
+    .contacts_info .col
+    {
+        max-width: 421px;
+    }
+
+    .contacts_info .col.big
+    {
+        width: auto;
+    }
+
+
+    .contacts_info .val br
+    {
+        display: none;
+    }
+
+
+    .contacts_info .val.row
+    {
+        display: block;
+    }
+
+    .contacts_info .val.row > *
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding: 40px;
+    }
+
+
+
+    .action_block .info
+    {
+        width: calc(50% - 15px);
+    }
+
+
+    .action_block .info .messengers .items
+    {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+
+
+    .action_block .form
+    {
+        width: calc(50% - 15px);
+        margin-left: auto;
+    }
+
+
+
+    .action_block .bg
+    {
+        right: 0;
+
+        opacity: .1;
+    }
+
+
+
+    /*----------------
+        Last years
+    ----------------*/
+    .last_years
+    {
+        padding: 40px 0;
+    }
+
+
+    .last_years .data
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+
+    .last_years .data .title
+    {
+        width: calc(100% - 279px);
+    }
+
+    .last_years .data .title br
+    {
+        display: none;
+    }
+
+
+    .last_years .data .link
+    {
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+    .last_years .data .link a
+    {
+        padding: 13px 40px;
+    }
+
+
+    .last_years #map
+    {
+        width: 100%;
+        height: 350px;
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Credit
+    ------------*/
+    .credit .initial
+    {
+        width: calc(50% - 120px);
+    }
+
+    .credit .initial .desc
+    {
+        width: 133px;
+    }
+
+
+    .credit .after
+    {
+        width: calc(50% + 120px);
+    }
+
+    .credit .after .desc
+    {
+        width: 69px;
+    }
+
+
+
+    /*--------------
+        Manager
+    --------------*/
+    .manager .img
+    {
+        right: 31px;
+
+        width: 462px;
+    }
+
+
+
+    /*-------------
+        Objects
+    -------------*/
+    .objects .row
+    {
+        margin-left: -10px;
+    }
+
+    .objects .row > *
+    {
+        width: calc(33.333% - 10px);
+        margin-left: 10px;
+    }
+
+
+    .objects .object .price .val
+    {
+        font-size: 20px;
+    }
+
+
+    .objects .object .link a
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------
+        Guide
+    -----------*/
+    .guide
+    {
+        padding-top: 40px;
+    }
+
+
+
+    /*-----------------
+        Object info
+    -----------------*/
+    .object_info .region
+    {
+        font-size: 14px;
+
+        margin-bottom: 50px;
+    }
+
+
+    .object_info .region .icon
+    {
+        width: 11px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+
+
+    .object_info .images
+    {
+        width: 100%;
+    }
+
+
+    .object_info .images .big
+    {
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .object_info .images .thumbs
+    {
+        border-radius: 0;
+    }
+
+
+    .object_info .images .image
+    {
+        height: 440px;
+    }
+
+
+
+    .object_info .data
+    {
+        width: 100%;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .object_info .features
+    {
+        margin-left: -20px;
+    }
+
+
+    .object_info .features > *,
+    .object_info .features > *.big
+    {
+        width: auto;
+        min-width: 176px;
+        margin-left: 20px;
+    }
+
+
+    .object_info .contacts .val > div
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+    .object_info .contacts .email
+    {
+        margin-top: 0;
+        margin-left: 188px;
+    }
+
+
+    .object_info .contacts .location
+    {
+        width: auto;
+        margin-left: auto;
+    }
+
+
+    .object_info .btns
+    {
+        padding-top: 40px;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block .head
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+        padding: 30px;
+    }
+
+
+    .info_block .head .title
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*---------------------
+        Object location
+    ---------------------*/
+    .object_location .data
+    {
+        width: 420px;
+    }
+
+    .object_location .features .icon + *
+    {
+        width: calc(100% - 40px);
+    }
+
+
+
+    /*-----------------------
+        Object facilities
+    -----------------------*/
+    .object_facilities
+    {
+        padding: 40px 0;
+    }
+
+
+
+    /*-----------------
+        Object plan
+    -----------------*/
+    .object_plan .image
+    {
+        height: 400px;
+    }
+
+
+
+    /*--------------------
+        Object gallery
+    --------------------*/
+    .object_gallery
+    {
+        padding: 40px 0;
+    }
+
+
+    .object_gallery .block_head
+    {
+        padding: 0 30px;
+    }
+
+
+    .object_gallery .swiper
+    {
+        margin: 0 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-top: 79px;
+    }
+
+
+
+    footer .col
+    {
+        width: 214px;
+    }
+
+
+
+    footer .menu
+    {
+        margin-right: -20px;
+    }
+
+
+
+    footer .info
+    {
+        width: calc(100% - 234px);
+    }
+
+
+
+    footer .location
+    {
+        width: 172px;
+    }
+}

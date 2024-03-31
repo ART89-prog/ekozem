@@ -1,0 +1,1166 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    .bg_block
+    {
+        padding-bottom: 30px;
+
+        border-radius: 0 0 30px 30px;
+    }
+
+    .bg_block.pad
+    {
+        padding: 30px 0;
+
+        border-radius: 30px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 29px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 10px;
+        right: 10px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 20px 56px 20px 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 14px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        right: 20px;
+    }
+
+
+    .accordion_item .data
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 10px 20px;
+    }
+
+
+
+    header .logo
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        margin-right: auto;
+
+        transform: none;
+    }
+
+
+    header .logo img
+    {
+        width: 39px;
+        height: 40px;
+    }
+
+
+    header .logo img + *
+    {
+        margin-left: 10px;
+    }
+
+
+    header .logo .name
+    {
+        font-size: 27px;
+    }
+
+    header .logo .desc
+    {
+        font-size: 7px;
+    }
+
+
+
+    header .data
+    {
+        display: none;
+    }
+
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    .header_wrap.absolute header
+    {
+        padding: 10px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        font-size: 12px;
+    }
+
+
+    .page_title
+    {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .block_head .title
+    {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+
+    .block_head .all_link
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .block_head .all_link a
+    {
+        justify-content: center;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 0;
+    }
+
+
+    .first_section .data
+    {
+        padding: 110px 0 74px;
+
+        border-radius: 0 0 30px 30px;
+    }
+
+    .first_section .data:before
+    {
+        background: rgba(18, 39, 46, .60);
+    }
+
+
+    .first_section .title
+    {
+        font-size: 31px;
+    }
+
+
+    .first_section .items .row
+    {
+        margin-left: 0;
+    }
+
+
+    .first_section .items .row > *,
+    .first_section .items .row > *:last-child
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .first_section .btn
+    {
+        width: 100%;
+        padding: 15px;
+    }
+
+
+
+    /*------------
+        steps
+    ------------*/
+    .steps .block_head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .steps .step .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .articles .row.mob_inline > *
+    {
+        width: 300px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 19px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+
+    .contacts_info .col
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contacts_info .col + .col
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .val > * + *
+    {
+        width: 100%;
+        margin-top: 6px;
+    }
+
+
+    .contacts_info .val.row
+    {
+        display: block;
+    }
+
+
+    .contacts_info .val.row > *
+    {
+        width: 100%;
+    }
+
+    .contacts_info .val.row > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 300px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding: 30px 20px;
+    }
+
+
+    .action_block .info .title
+    {
+        font-size: 22px;
+        line-height: calc(100% + 5px);
+
+        width: 100%;
+    }
+
+
+    .action_block .info .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .action_block .info .messengers .items
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    .action_block .form
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .action_block .bg
+    {
+        display: none;
+    }
+
+    .action_block .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+
+    .article_info .date
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history:before
+    {
+        right: 30px;
+        left: auto;
+    }
+
+
+    .history .row
+    {
+        margin-left: 0;
+        padding-right: 40px;
+    }
+
+    .history .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .history .item:before
+    {
+        position: absolute;
+        top: 0;
+        right: -40px;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 50%;
+        background: #78a86e;
+    }
+
+    .history .item:nth-child(2n):before
+    {
+        right: -40px;
+
+        margin-right: 0;
+    }
+
+
+    .history .item .title
+    {
+        font-size: 16px;
+    }
+
+
+    .history .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .swiper-slide
+    {
+        width: 270px;
+    }
+
+
+    .team .person .info
+    {
+        border-radius: 20px;
+    }
+
+
+
+    /*----------------
+        Last years
+    ----------------*/
+    .last_years
+    {
+        padding: 30px 0;
+
+        border-radius: 30px;
+    }
+
+
+    .last_years .data .title
+    {
+        font-size: 22px;
+    }
+
+
+    .last_years .data .link
+    {
+        margin-top: 20px;
+    }
+
+
+    .last_years #map
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------
+        Credit
+    ------------*/
+    .credit .initial
+    {
+        display: block;
+
+        padding: 30px;
+
+        text-align: center;
+    }
+
+
+    .credit .initial .icon
+    {
+        margin: 0 auto;
+    }
+
+
+    .credit .initial .percents,
+    .credit .initial .desc
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .credit .after
+    {
+        display: block;
+
+        padding: 30px;
+
+        text-align: center;
+    }
+
+
+    .credit .after .icon
+    {
+        margin: 0 auto;
+    }
+
+
+    .credit .after .percents,
+    .credit .after .desc
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .credit .after .link a
+    {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Manager
+    --------------*/
+    .manager .data
+    {
+        overflow: hidden;
+
+        padding: 40px 30px;
+    }
+
+
+    .manager .title
+    {
+        font-size: 24px;
+        line-height: normal;
+
+        width: 229px;
+        max-width: 100%;
+    }
+
+
+    .manager .desc
+    {
+        width: 201px;
+    }
+
+
+    .manager .link a
+    {
+        width: 100%;
+        padding: 16px 40px;
+    }
+
+
+    .manager .mob_img
+    {
+        right: -39px;
+        bottom: -22px;
+
+        width: 238px;
+        min-height: 50px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block
+    {
+        padding-top: 29px;
+    }
+
+
+    .contacts_block .mob_spoler_btn
+    {
+        display: flex;
+    }
+
+
+    .contacts_block .data
+    {
+        bottom: 20px;
+        left: 40px;
+
+        display: none;
+
+        width: calc(100% - 80px);
+    }
+
+
+    .contacts_block .data .close_btn
+    {
+        display: flex;
+    }
+
+
+    .contacts_block .messengers .items
+    {
+        margin-right: -20px;
+        margin-left: auto;
+    }
+
+
+
+    /*-------------
+        Objects
+    -------------*/
+    .objects .row
+    {
+        margin-left: 0;
+    }
+
+    .objects .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .objects .row.mob_inline > *
+    {
+        width: 280px;
+    }
+
+
+    .objects .row.mob_inline .object .price
+    {
+        display: block;
+
+        text-align: center;
+    }
+
+
+    .objects .object .price .val
+    {
+        margin-top: 5px;
+    }
+
+
+
+    /*-----------
+        Guide
+    -----------*/
+    .guide .head
+    {
+        padding: 20px;
+    }
+
+
+    .guide .head .pre_title
+    {
+        line-height: normal;
+
+        width: 159px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .guide .head .title
+    {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+
+    .guide .text_block
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*-----------------
+        Object info
+    -----------------*/
+    .object_info .images .image
+    {
+        height: 300px;
+    }
+
+
+    .object_info .images .thumbs
+    {
+        padding-right: 36px;
+        padding-left: 36px;
+    }
+
+
+    .object_info .images .thumbs .image
+    {
+        height: 60px;
+        padding-bottom: 0;
+    }
+
+
+    .object_info .images .thumbs .swiper-button-next,
+    .object_info .images .thumbs .swiper-button-prev
+    {
+        width: 36px;
+    }
+
+
+    .object_info .images .thumbs .swiper-button-prev
+    {
+        left: -36px;
+    }
+
+    .object_info .images .thumbs .swiper-button-next
+    {
+        right: -36px;
+    }
+
+
+    .object_info .images .thumbs .swiper-button-next .icon,
+    .object_info .images .thumbs .swiper-button-prev .icon
+    {
+        width: 8px;
+        height: 16px;
+    }
+
+
+    .object_info .features
+    {
+        margin-bottom: -10px;
+        margin-left: 0;
+        padding: 19px;
+    }
+
+
+    .object_info .features > *,
+    .object_info .features > *.big
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+
+    .object_info .contacts .email
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .object_info .contacts .location
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block .head
+    {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+
+    .info_block .head .title
+    {
+        font-size: 18px;
+    }
+
+    .info_block .head .title + .title
+    {
+        margin-top: 20px;
+    }
+
+
+    .info_block .text_block
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*---------------------
+        Object location
+    ---------------------*/
+    .object_location .mob_spoler_btn
+    {
+        display: flex;
+    }
+
+
+    .object_location .data
+    {
+        bottom: 20px;
+        left: 40px;
+
+        display: none;
+
+        width: calc(100% - 80px);
+    }
+
+
+    .object_location .data .close_btn
+    {
+        display: flex;
+    }
+
+
+    .object_location .features
+    {
+        margin-left: 0;
+    }
+
+    .object_location .features > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------------
+        Object facilities
+    -----------------------*/
+    .object_facilities
+    {
+        padding: 30px 0;
+
+        border-radius: 30px;
+    }
+
+
+    .object_facilities .arrangement .row > *,
+    .object_facilities .arrangement .row > *.big
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .object_facilities .arrangement .item .icon + *
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .object_facilities .arrangement .row > *:last-child
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: calc(100% - 10px);
+    }
+
+
+    .object_facilities .arrangement .row > *:last-child .item
+    {
+        width: calc(50% - 5px);
+    }
+
+    .object_facilities .arrangement .row > *:last-child .item + .item
+    {
+        margin-top: 0;
+    }
+
+
+
+    .object_facilities .brief_info .row
+    {
+        margin-left: 0;
+    }
+
+    .object_facilities .brief_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .object_facilities .brief_info .item
+    {
+        flex-wrap: wrap;
+
+        padding: 19px;
+
+        border-radius: 20px;
+    }
+
+
+    .object_facilities .brief_info .item .val.mob_full_w
+    {
+        width: 100%;
+        margin-top: 6px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Object gallery
+    --------------------*/
+    .object_gallery
+    {
+        padding: 30px 0;
+
+        border-radius: 30px;
+    }
+
+
+    .object_gallery .block_head
+    {
+        padding: 0;
+    }
+
+
+    .object_gallery .swiper
+    {
+        margin: 0;
+    }
+
+
+    .object_gallery .swiper-slide
+    {
+        visibility: visible;
+
+        width: 280px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .object_gallery .swiper-button-next,
+    .object_gallery .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .object_gallery .thumb
+    {
+        padding-bottom: 85.714%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .top
+    {
+        border-radius: 20px 20px 0 0;
+    }
+
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    footer .logo img
+    {
+        width: 39px;
+        height: 40px;
+    }
+
+
+    footer .logo img + *
+    {
+        margin-left: 10px;
+    }
+
+
+    footer .logo .name
+    {
+        font-size: 27px;
+    }
+
+    footer .logo .desc
+    {
+        font-size: 7px;
+    }
+
+
+
+    footer .messengers a
+    {
+        width: 35px;
+        height: 35px;
+    }
+
+    footer .messengers .icon
+    {
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+    footer .consult_btn
+    {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+
+    footer .info
+    {
+        padding: 20px;
+    }
+
+
+
+    footer .menu
+    {
+        display: block;
+
+        column-gap: 20px;
+    }
+
+
+    footer .menu .title
+    {
+        width: auto;
+    }
+
+
+    footer .menu > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+
+    footer .contacts .val
+    {
+        display: block;
+    }
+
+    footer .contacts .val > * + *
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 30px;
+    }
+
+
+    .modal_title,
+    .modal.success .modal_title
+    {
+        font-size: 20px;
+    }
+}
